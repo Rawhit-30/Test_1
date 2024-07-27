@@ -1,5 +1,5 @@
 const btn = document.getElementById('btn')
-const component = document.getElementsByClassName('box')
+const component = document.getElementById('box')
 btn.addEventListener('click' ,() =>{
-    component.innertext = "ROhit"
+    component.innerHTML = "ROhit"
 })
